@@ -8,7 +8,7 @@ interface LessonPrpos {
     title: string;
     slug: string;
     avialableAt: Date;
-    type: 'Live' | 'class';
+    type: string;
 }
 
 // className={` ${isActiveLesson ?  : ''}`}
